@@ -1,0 +1,38 @@
+WEBVTT - Anecdote on solving a HackerRank challenge which comically exemplifies the difficulty of C programming
+
+NOTE
+Link to the HackerRank practice excersize:
+https://www.hackerrank.com/challenges/querying-the-document/submissions/code/97806220
+
+00:00:05.000 --> 00:00:07.400 line:95%
+The page reads: "Learning C is fun!"
+
+00:00:07.400 --> 00:00:10.400 line:95%
+Let's practise!
+
+00:00:10.400 --> 00:00:13.500 line:95%
+Here's a fun exercise called <i>Querying the Document</i>.
+
+00:00:13.500 --> 00:00:16.200 line:95%
+The objective of this exercise is to translate the
+
+00:00:16.200 --> 00:00:19.900 line:95%
+highlighted character string into a
+
+00:00:19.900 --> 00:00:23.500 line:95%
+data structure from which I may easily query the text.
+
+00:00:23.900 --> 00:00:28.700 line:95%
+Here's my solution.
+
+00:00:32.100 --> 00:00:35.100 line:95%
+Let's execute it.
+
+00:00:39.500 --> 00:00:42.500 line:95%
+Insert profanity here.
+
+00:00:45.000 --> 00:00:48.000 line:95%
+The page reads: "Learning C is fun! ...
+
+00:00:48.000 --> 00:00:51.000 line:95%
+... Said no one ... ever!!"

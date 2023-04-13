@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTH645 Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- https://fontawesome.com/kits -->
+
+  <script src="https://kit.fontawesome.com/60b9748389.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <header class="container-nav">
+    <div class="py-0 navbar navbar-expand-md border-bottom">
+      <div class="d-flex align-content-around align-items-center">
+        <a
+          class="link-icon mx-3"
+          href="/"
+          title="Go to landing page"
+          aria-label="Link to landing page"
+        >
+          <span class="fa-solid fa-home fa-xl"></span>
+        </a>
+        <p class="mt-3 navbar-brand">Nicholas&nbsp;Defranco</p>
+      </div>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#drop-menu"
+        aria-controls="drop-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav
+        class="collapse navbar-collapse"
+        id="drop-menu"
+        aria-label="Primary navigation"
+      >
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View lab collection"
+                title="Expand lab collection"
+              >
+                Labs
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="index.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab2.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab3.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;3
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab4.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;4
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab5.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;5
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+            </details>
+          </li>
+
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View assignment collection"
+                title="Expand assignment collection"
+              >
+                Assignments
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a1.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a2.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a3.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;3
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+
+            </details>
+          </li>
+
+          <!-- navbar-nav -->
+
+        </ul>
+      </nav>
+
+      <!-- .navbar -->
+
+    </div>
+
+    <!-- .container-nav -->
+
+  </header>
+  
+  <main>
+    <h1 class="text-center">Lab 4</h1>
+    <h2 class="text-center">Short Film: Developer Anguish</h2>
+
+    <figure>
+        <figcaption class="text-center">
+            Anecdote on solving a <a class="light-link" href="https://www.hackerrank.com/challenges/querying-the-document/problem">HackerRank challenge</a> which comically exemplifies the difficulty of C programming.
+        </figcaption>
+    </figure>
+    <video
+        id="anecdotal-video-player"
+        class="d-block ms-auto me-auto"
+        controls
+    >
+        <source 
+            type="video/mp4"
+            src="videos/developer-anguish.mp4"
+        />
+        <track 
+            label="English"
+            kind="captions"
+            srclang="en"
+            src="videos/developer-anguish.vtt"
+            default
+        />
+        Download the <a class="light-link" href="/videos/developer-anguish.mp4">MP4</a> video, 
+        and its <a class="light-link" href="/videos/developer-anguish.vtt">captions</a>.
+    </video>
+
+    <article>
+      <h2 class="text-center">Reflection</h2>
+      <h3 class="text-center">Film Production Thoughts</h3>
+      <h4 class="text-center">Accessibility</h4>
+      <p>
+        The same accessibility considerations from <a class="light-link" href="a1.html">Assignment one</a>. Please refer back to that discussion.
+      </p>
+      <h4 class="text-center">File Format</h4>
+      <p>
+        I used a Canon camera to shoot my short film. This camera encodes recordings into a MOV file. MOV decoders on some browsers are imperfect, as they cannot play every video. To this end, I reformatted the file to MPEG-4 with 720p resolution because this file format has full support across all browsers, guaranteeing a consistent experience.
+      </p>
+      <p>
+        In addition, another motivation to reformat was conserving disk space. The original MOV file consumes 343.9 MegaBytes (MB), whereas its converted counterpart consumes only 32.5 MB. This considerable reduction in storage requirements renders it a more viable option for use on the web.
+      </p>
+      <h4 class="text-center">Background Music Decision Process</h4>
+      <p>
+        I was mainly aiming for music that was silly, giving a sense of comedic relief.
+      </p>
+      <h3 class="text-center">Film Editing</h3>
+      <p>
+        The list of steps below describe the procedure to reproduce my film.
+      </p>
+      <ol>
+        <li>
+          Import the necessary video assets into a new project:
+          <ul>
+            <li>
+              <a class="light-link" href="videos/raw-developer-anguish.mp4">Raw footage;</a>
+            </li>
+            <li>
+              <a class="light-link" href="audio/monkeys-spinning-monkeys.mp3">Monkeys spinning monkeys</a> background music;
+            </li>
+            <li>
+              <a class="light-link" href="videos/developer-anguish.vtt">Captions</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Play only the first minute of the audio track while the film is playing. Strip the rest of the audio sequence and remove it from the project.
+        </li>
+        <li>
+          Add a fade-in effect at the beginning of audio track lasting five (5) seconds.
+        </li>
+        <li>
+          Fade out the audio at the end for five (5) seconds.
+        </li>
+        <li>
+          During the first five (5) seconds, display a title page on scene with mandatory background information.
+        </li>
+        <li>
+          Start the raw video five (5) seconds into the film.
+        </li>
+        <li>
+          Transition from the title scene to the video using the <i>Cross Warp</i> effect.
+        </li>
+        <li>
+          Mute the audio on the raw video footage.
+        </li>
+        <li>
+          Cut the following sections from the video in the same order listed here:
+          <ol>
+            <li>00:23.500 to 00:25.500</li>
+            <li>00:34.500 to 00:37.500</li>
+            <li>00:35.600 to 00:37.500</li>
+            <li>00:43.200 to 00:51.200</li>
+          </ol>
+        </li>
+        <li>
+          Add a <i>Zoom in</i> transitional effect at 00:34.500.
+        </li>
+        <li>
+          Annotate the film with <i>grawlixe text</i> (#$@&%*!) from 00:39.900 to 00:43.200.
+        </li>
+        <li>
+          Show the outro scene with <i>"The End!"</i> text from 00:51.200 to 00:55.00.
+        </li>
+        <li>
+          Transition to the outro with the <i>Circle</i> effect.
+        </li>
+        <li>
+          Display the references page for the last five (5) seconds.
+        </li>
+      </ol>
+    </article>
+    <section class="mb-3">
+      <h2 class="text-center my-4">Attestation</h2>
+      <p>
+        I declare that this is wholly my own work in accordance with
+        Seneca Academic Policy. No part of this work has been copied
+        manually or electronically from any other source (including web
+        sites) or distributed to other students.
+      </p>
+      <div class="d-flex">
+        <p class="w-100">
+          Name:&nbsp;Nicholas&nbsp;Defranco
+        </p>
+        <p class="w-100">
+          Student&nbsp;ID:&nbsp;106732183
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="p-3 border-top">
+    <p class="text-center">
+      This page was last modified on <output id="time">Please enable JavaScript</output>
+    </p>
+  </footer>
+
+</body>
+</html>

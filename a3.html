@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTH645 Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- https://fontawesome.com/kits -->
+
+  <script src="https://kit.fontawesome.com/60b9748389.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.js"></script>
+  <script src="js/fireworks.js"></script>
+  <script src="js/animation.js"></script>
+</head>
+
+<body>
+
+  <header class="container-nav">
+    <div class="py-0 navbar navbar-expand-md border-bottom">
+      <div class="d-flex align-content-around align-items-center">
+        <a 
+          class="link-icon mx-3"
+          href="/"
+          title="Go to landing page"
+          aria-label="Link to landing page"
+        >
+          <span class="fa-solid fa-home fa-xl"></span>
+        </a>
+        <p class="mt-3 navbar-brand">Nicholas&nbsp;Defranco</p>
+      </div>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#drop-menu"
+        aria-controls="drop-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav
+        class="collapse navbar-collapse"
+        id="drop-menu"
+        aria-label="Primary navigation"
+      >
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View lab collection"
+                title="Expand lab collection"
+              >
+                Labs
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+                
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="index.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab2.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a 
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab3.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;3
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab4.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;4
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab5.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;5
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+            </details>
+          </li>
+
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View assignment collection"
+                title="Expand assignment collection"
+              >
+                Assignments
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+                
+                <li>
+                  <a 
+                    class="dropdown-item navbar-light-link bold text-center" 
+                    href="a1.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a2.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a3.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;3
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+
+            </details>
+          </li>
+
+          <!-- navbar-nav -->
+
+        </ul>
+      </nav>
+      
+      <!-- .navbar -->
+    
+    </div>
+
+    <!-- .container-nav -->
+
+  </header>
+
+  <main class="min-vh-100 mx-5">
+    <h1 class="text-center">Assignment 3</h1>
+
+    <h2 class="text-center">Animation</h2>
+    <figure>
+      <figcaption class="text-center">Fireworks on a starry night. The background <a class="light-link" href="https://pixabay.com/vectors/night-sky-stars-moon-crescent-moon-5572559/">Night sky image</a> is available under the <a class="light-link" href="https://pixabay.com/service/terms/">Pixabay licence</a>.
+      <a class="light-link" href="https://www.shutterstock.com/image-vector/fireworks-rocket-launch-sketch-engraving-vector-1865531386?id=1865531386">Firework</a> and <a class="light-link" href="https://www.shutterstock.com/image-vector/set-five-vector-fireworks-bursting-various-1401731180?id=1401731180">explosion</a> images are adapted from Shutterstock. The sound effects are from <a class="light-link" href="https://mixkit.co/free-sound-effects/fireworks/">Mixkit</a>.</figcaption>
+      <div id="animation-container" class="d-flex justify-content-center">
+        <!-- P5.js will inject the canvas here -->
+      </div>
+    </figure>
+
+    <details>
+      <summary>
+        Source code
+      </summary>
+      <!--
+        <pre> tag holds preformatted code.
+
+        https://websemantics.uk/articles/displaying-code-in-web-pages/
+      -->
+      <pre>
+        <code>
+// animation.js: driver code
+
+let entityMap = {};
+let entityBin = new Set(); // IDs of enitities queued for deletion
+let backgroundImg = null;
+
+function preload() {
+  soundFormats('mp3');
+  setOff = loadSound('audio/firework-set-off.mp3');
+  init(); // fireworks initalization procedure
+  backgroundImg = loadImage('images/night-sky.svg');
+}
+
+function setup() {
+  let canvas = createCanvas(windowWidth / 2, windowHeight / 2);
+  canvas.parent('animation-container');
+  frameRate(FRAME_RATE);
+}
+
+function draw() {
+  background(backgroundImg);
+  fill('white');
+  text('Starry Night', width / 2 - 30, 40);
+  
+  Object.keys(entityMap).forEach((id) => {
+    entityMap[id].draw();
+  });
+  for(const id of entityBin) {
+    delete entityMap[id];
+  }
+  entityBin.clear();
+}
+
+function mouseClicked() {
+  if(mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+    entityMap[uidCounter] = new Firework(uidCounter, mouseX, height, mouseY);
+    uidCounter++;
+  }
+}
+
+
+// fireworks.js
+
+let uidCounter = Number.MIN_SAFE_INTEGER;
+
+const FRAME_RATE = 60; // frames / second
+const SPEED = 100 // pixels / second
+const MOVEMENT_RATE = SPEED / FRAME_RATE; // pixels / frame
+
+const SMOKE_TRAVEL_DISTANCE = 20; // pixels
+
+const SMOKE_BALLS_PER_SECOND = 6; // smoke balls / second
+const SMOKE_BALL_EXPEND_INTERVAL = FRAME_RATE / SMOKE_BALLS_PER_SECOND; // frames / smoke ball
+
+const fireworkState = {}
+
+// State class to assist the Firework class
+class FireworkMedia {
+  constructor(img, effect = null, text = null) {
+    this.appearance = img; // p5.Image
+    this.soundEffect = effect; // p5.SoundFile
+    this.annotation = text; // String
+  }
+
+  getImage() {
+    return this.appearance;
+  }
+
+  playSound() {
+    if(this.soundEffect) {
+      this.soundEffect.play();
+    }
+  }
+
+  getText() {
+    return this.annotation || null;
+  }
+
+  display(x, y) {
+    image(this.getImage(), x, y);
+    let t = this.getText();
+    fill('white');
+    if(t) {
+      text(t, x, y);
+    }
+  }
+}
+
+// Entity
+class Smoke {
+  constructor(id, x, y, dx, dy) {
+    this.id = id; // Number
+    this.x = x; // Number
+    this.y = y; // Number
+    this.dx = dx; // Number
+    this.dy = dy; // Number
+    this.destinationHeight = y + SMOKE_TRAVEL_DISTANCE; // Number
+  }
+
+  draw() {
+    if(this.y < this.destinationHeight) {
+      this.x += this.dx;
+      this.y += this.dy;
+      fill('grey');
+      circle(this.x + 15, this.y + 40, 10);
+    } else {
+      entityBin.add(this.getId()); // Inform the client, i.e., the subscriber, that the smoke has completed its course.
+    }
+  }
+
+  getId() {
+    return this.id;
+  }
+}
+
+let setOff = null;
+
+// Entity
+class Firework {
+  constructor(id, x, y, target) {
+    this.id = id; // Number
+    this.x = x; // Number
+    this.y = y; // Number
+    this.targetHeight = target; // Number
+    this.media = fireworkState['flying']; // FireworkMedia
+
+    this.smoke = []; // Array of aggregate referances to Smoke instances
+    setOff.play();
+  }
+
+  draw() {
+    if(this.y <= this.targetHeight) {
+      this.media = fireworkState['exploded'];
+      // Inform the client, i.e., the subscriber, that the firework has completed its course.
+      this.smoke.forEach(s => {
+        entityBin.add(s.getId());
+      });
+      entityBin.add(this.getId());
+    } else {
+      this.y -= MOVEMENT_RATE;
+      if(frameCount % (SMOKE_BALL_EXPEND_INTERVAL) == 0) {
+        entityMap[uidCounter] = new Smoke(uidCounter, this.x, this.y, random(-1, 1), random(0, 6));
+        this.smoke.push(entityMap[uidCounter]);
+        uidCounter++;
+      }
+    }
+    this.media.playSound();
+    this.media.display(this.x, this.y);
+  }
+
+  getId() {
+    return this.id;
+  }
+}
+
+function init() {
+  fireworkState['flying'] = new FireworkMedia(loadImage('images/firework.png'), null, null);
+  fireworkState['exploded'] = new FireworkMedia(loadImage('images/exploded.png'), loadSound('audio/firework-explosion.mp3'), 'Kaboom');
+}          
+        </code>
+      </pre>
+    </details>
+
+    <article>
+      <h2 class="text-center">Instructions</h2>
+      <p>
+        Click anywhere on the canvas to set off a firework. The firework will launch from the ground, the bottom of the canvas, and travel to the click location, upon which the firework will explode. During the fireworks' flight, they will spew smoke, illustrated as grey circles.
+      </p>
+    </article>
+
+    <section class="mb-3">
+      <h2 class="text-center my-4">Attestation</h2>
+      <p>
+        I declare that this is wholly my own work in accordance with
+        Seneca Academic Policy. No part of this work has been copied
+        manually or electronically from any other source (including web
+        sites) or distributed to other students.
+      </p>
+      <div class="d-flex">
+        <p class="w-100">
+          Name:&nbsp;Nicholas&nbsp;Defranco
+        </p>
+        <p class="w-100">
+          Student&nbsp;ID:&nbsp;106732183
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="p-3 border-top">
+    <p class="text-center">
+      This page was last modified on <span id="time">Please enable JavaScript</span>
+    </p>
+  </footer>
+
+</body>
+</html>

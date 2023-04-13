@@ -1,0 +1,100 @@
+/*
+ * Global styling
+ */
+
+:root {
+  /*
+  * https://webaim.org/resources/linkcontrastchecker/?fcolor=111213&bcolor=BBE5F7&lcolor=4242FF
+  */
+  --nav-color: #BBE5F7;
+
+  --foreground-color: #111213;
+
+  --link-color: #4242FF;
+}
+
+body {
+  background-color: #DFF6F0;
+  color: var(--foreground-color);
+}
+
+.link-icon {
+  color: var(--link-color);
+}
+
+.link-icon:hover {
+  transform: scale(1.5);
+}
+
+/*
+ * Navigation bar styling
+ */
+
+.container-nav {
+  background-color: var(--nav-color);
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.navbar-nav {
+  /*
+  * Appear in the middle of the content box when collapsed
+  */
+  text-align: center;
+}
+
+/* 
+ * Navbar link modifications
+ */
+
+.navbar-light-link,
+.light-link {
+  text-decoration: none;
+}
+
+.navbar-light-link:hover,
+.navbar-light-link:focus,
+.light-link:hover,
+.light-link:focus {
+  text-decoration: underline;
+}
+
+a.navbar-light-link:hover,
+a.navbar-light-link:focus {
+  /* 
+  * Yields a 12.91:1 ratio with default bootstrap text colour, #212529.
+  *
+  * https://webaim.org/resources/contrastchecker/?fcolor=212529&bcolor=EAEBEB
+  */
+  background-color: #EAEBEB;
+}
+
+/*
+ * Body modifications
+ */
+
+.light-link {
+  color: #5252FF;
+}
+
+/*
+* Footer modifications
+*/
+
+footer {
+  background-color: var(--nav-color);
+}
+
+/*
+ * Video Modifications
+ */
+
+#news-video-player::cue, #anecdotal-video-player::cue {
+  line-height: 38px;
+}
+
+#news-video-player::cue(.underline) {
+  text-decoration: underline;
+}

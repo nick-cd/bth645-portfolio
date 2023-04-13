@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTH645 Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- https://fontawesome.com/kits -->
+
+  <script src="https://kit.fontawesome.com/60b9748389.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <header class="container-nav">
+    <div class="py-0 navbar navbar-expand-md border-bottom">
+      <div class="d-flex align-content-around align-items-center">
+        <a
+          class="link-icon mx-3"
+          href="/"
+          title="Go to landing page"
+          aria-label="Link to landing page"
+        >
+          <span class="fa-solid fa-home fa-xl"></span>
+        </a>
+        <p class="mt-3 navbar-brand">Nicholas&nbsp;Defranco</p>
+      </div>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#drop-menu"
+        aria-controls="drop-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav
+        class="collapse navbar-collapse"
+        id="drop-menu"
+        aria-label="Primary navigation"
+      >
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View lab collection"
+                title="Expand lab collection"
+              >
+                Labs
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="index.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab2.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab3.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;3
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab4.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;4
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab5.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;5
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+            </details>
+          </li>
+
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View assignment collection"
+                title="Expand assignment collection"
+              >
+                Assignments
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a1.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a2.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a3.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;3
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+
+            </details>
+          </li>
+
+          <!-- navbar-nav -->
+
+        </ul>
+      </nav>
+
+      <!-- .navbar -->
+
+    </div>
+
+    <!-- .container-nav -->
+
+  </header>
+  <main>
+    <h1 class="text-center">Assignment 1: News Recitation</h1>
+    <h2 class="text-center">Audio</h2>
+    <figure class="my-3">
+      <figcaption class="text-center">
+        My news briefing of article titled <a class="light-link" href="https://www.cp24.com/news/media-advocate-says-google-is-bullying-canadians-in-temporarily-blocking-news-1.6286635">Media advocate says Google is 'bullying' Canadians in temporarily blocking news</a>:
+      </figcaption>
+      <audio
+        class="d-block ms-auto me-auto"
+        controls
+      >
+        <source src="audio/news-briefing.ogg" />
+        <source src="audio/news-briefing.mp3" />
+        <a href="audio/news-briefing.mp3">
+          Download the recording
+        </a>
+      </audio>
+      <figcaption class="text-center">
+          Background music: <a class="light-link" href="https://uppbeat.io/t/avbe/reporting-from-the-scene">Reporting From The Scene</a> by AVBE. (Licence code: INDERC3TKUBRIGNY)
+      </figcaption>
+    </figure>
+    <details class="mx-3">
+      <summary class="text-center">
+        Transcript
+      </summary>
+        <p>
+          00:00:05.600 --> 00:00:09.300
+          Google confirmed on Wednesday, February 22 that it
+        </p>
+        <p>
+          00:00:09.300 --> 00:00:12.100
+          is blocking access to online news for less
+        </p>
+        <p>
+          00:00:12.100 --> 00:00:15.300
+          than four percent of its Canadian use in what
+        </p>
+        <p>
+          00:00:15.300 --> 00:00:18.200
+          the company describes as a short-lived test
+        </p>
+        <p>
+          00:00:18.200 --> 00:00:23.000
+          in response to the liberal government's 
+          Online News Act: Bill C-18.
+        </p>
+        <p>
+          00:00:24.200 --> 00:00:27.600
+          Bill C-18 would require digital giants
+          such as Google and
+        </p>
+        <p>
+          00:00:27.600 --> 00:00:30.900
+          meta, which owns Facebook and Instagram, to negotiate
+        </p>
+        <p>
+          00:00:30.900 --> 00:00:35.000
+          deals to compensate Canadian media companies
+          for displaying
+        </p>
+        <p>
+          00:00:35.000 --> 00:00:37.500
+          or providing links to their news content.
+        </p>
+        <p>
+          00:00:38.400 --> 00:00:41.500
+          Larger media companies have praised the bill as a
+        </p>
+        <p>
+          00:00:41.500 --> 00:00:44.700
+          way to create a level playing field against Google
+        </p>
+        <p>
+          00:00:44.700 --> 00:00:48.400
+          and Facebook, which compete with them
+          for advertising dollars.
+        </p>
+        <p>
+          00:00:49.000 --> 00:00:52.300
+          Tech companies to push back against the bill,
+          arguing
+        </p>
+        <p>
+          00:00:52.300 --> 00:00:54.400
+          it is the wrong approach to enhance journalism.
+        </p>
+    </details>
+    <h2 class="text-center">Video</h2>
+    <figure>
+      <figcaption class="text-center">
+        Below is my news briefing in video format of article titled <a class="light-link" href="https://www.cp24.com/news/media-advocate-says-google-is-bullying-canadians-in-temporarily-blocking-news-1.6286635">Media advocate says Google is 'bullying' Canadians in temporarily blocking news</a> Please excuse the watermark on the top-right corner of the screen.
+      </figcaption>
+      <video
+        id="news-video-player"
+        class="d-block ms-auto me-auto"
+        controls
+      >
+        <source 
+          type="video/mp4"
+          src="videos/news-briefing.mp4"
+        />
+        <track
+          label="English"
+          kind="captions"
+          srclang="en"
+          src="videos/news-briefing.vtt"
+          default
+        />
+        Download the <a href="/videos/news-briefing.mp4">MP4</a> video, and its
+        <a href="/videos/news-briefing.vtt">captions</a>.
+      </video>
+    </figure>
+    <article>
+      <h2 class="text-center">Reflection</h2>
+      <h3 class="text-center">Project Recreation</h3>
+      <h4 id="audio-recreation" class="text-center">Audio</h4>
+      <p>
+        This is a step-by-step process on recontructing audio recording.
+      </p>
+      <ol>
+        <li>Add the <a class="light-link" href="https://uppbeat.io/t/avbe/reporting-from-the-scene">Reporting From The Scene</a> track to the project.</li>
+        <li>Erase the audio track from 1:20 (exclusive) onwards.</li>
+        <li>Set the gain to &dash;28 decibels.</li>
+        <li>Amplify the sounds during the intro and outro. These volume increases occur during the periods unoccupied by the voice recording.</li>
+        <ul>
+          <li>Intro duration: the first 5.7 seconds of the track.</li>
+          <li>Outro duration: the end of the track, starting at 54.4 seconds.</li>
+        </ul>
+        <li>Fade-in the beginning 2.5 seconds</li>
+        <li>Fade-out the last 5 seconds</li>
+        <li>Add the <a class="light-link" href="audio/pre-processed-news-briefing.mp3">pre-processed voice recording</a> to the project and set playback to initiate at 5.6 seconds.</li>
+      </ol>
+
+      <h4 class="text-center">Video</h4>
+      <p>
+        The following list steps through how to recreate my video:
+      </p>
+      <ol>
+        <li>Add media resources, that is audio and images, to the project.</li>
+        <li>Introduce the news story with a title page that lasts 5.7 seconds.</li>
+        <li>Show the relevant image and its corresponding attribution during designated time range, indicated below:</li>
+        <ul>
+          <li>During the range 05.700 to 09.100, use <i>Close-Up Shot of a Calendar</i>.</li>
+          <li>During the range 09.100 to 14.900, use the image of the Bonded girl.</li>
+          <li>During the range 14.900 to 18.100, use <i>Experiment</i>.</li>
+          <li>During the range 18.100 to 25.500, use <i>Law</i>.</li>
+          <li>During the range 25.500 to 37.800, use <i>Big Tech Companies</i>.</li>
+          <li>During the range 38.000 to 49.000, use <i>Bell Media - Ottawa</i>.</li>
+          <li>During the range 49.000 to 54.600, use <i>Antu task-reject</i>.</li>
+        </ul>
+        <p>
+          Note that the starting and ending times are inclusive and exclusive, respectively.
+        </p>
+        <li>Create a references page at the end of the narration with two (2) references for:</li>
+        <ol>
+          <li>the news story from CP24, and</li>
+          <li>the audio recording.</li>
+        </ol>
+        <li>Define a WebVTT file to accompany the video using <a href="videos/news-briefing.vtt">these timed captions</a>.</li>
+        <li>Style the captions in the following two (2) ways:</li>
+        <ol>
+          <li>Change the captions' <code>line&dash;height</code> property to 38 pixels;</li>
+          <li>Place additional emphasis on italicize text by underlining it.</li>
+        </ol>
+      </ol>
+
+      <h2 class="text-center">Design Considerations</h2>
+      <h3 class="text-center">Audio</h3>
+      <h4 class="text-center">Additional Edit</h4>
+      <p>
+        While recording, my microphone generated a noticeable amount of noise. I suppressed this noise with <a class="light-link" href="https://manual.audacityteam.org/man/noise_reduction.html">Audacity's Noise Reduction</a> effect. The provided audio asset in the <a class="light-link" href="#audio-recreation">Audio Recreation</a> section above already has noise reduced.
+      </p>
+
+      <h4 class="text-center">Accessibility</h4>
+      <p>
+        According to W3C's recommendations, the volume of foreground sounds must always be <a class="light-link" href="https://www.w3.org/TR/WCAG21/#low-or-no-background-audio">20 decibels louder</a> than that of background sounds. For this reason, the volume of the background music is low throughout during the speech to make it audible.
+      </p>
+
+      <h4 class="text-center">Background Music Decision Process</h4>
+      <p>
+        I wanted backing music that mildly evoked tension; was not jarring; and, as such, not distracting to users. AVBE's work met all the criteria.
+      </p>
+
+      <h3 class="text-center">Video</h3>
+      <h4 class="text-center">Accessibility</h4>
+      <p>
+        One criterion in W3C distinction guidelines dictats <a href="https://www.w3.org/TR/WCAG21/#x1-4-6-contrast-enhanced">sufficient text contrast</a>. Ideally, normal text in a video must have a contrast ratio of 7:1. My embedded video text has maximum contrast since all the text is black-on-white or vice versa.
+      </p>
+
+      <h4 class="text-center">Image Selection Decision Process</h4>
+      <p>
+        The process by which I chose my image assortment is fairly trival. Other than limiting my options to copyright-free images, there was only one aspect that influenced my decision: relevance. The sebsequent sub-sections how select images are relevant to the topic at hand.
+      </p>
+      <h5 class="text-center">Bonded Girl Image Relevance</h5>
+      <p>
+        Since the technology giants are not subject to the same political scrutiny as polititians, they have leeway to enact any changes, even ones that negatively impact our lives. For this reason, Canadians feel they are at the mercy Google's actions. Hence the metaphor of being trapped, or in particular, bonded.
+      </p>
+
+      <h5 class="text-center">'Law" Image Relevance</h5>
+      <p>
+        Not everyone may exactly understand a bill in legislation, whereas law is more universally understood. While the term is not interchangeable with law, there are tangentially related. 
+      </p>
+
+      <h5 class="text-center">"Bell Media - Ottawa" Image Relevance</h5>
+      <p>
+        Bell Media owns many subsidiries that make up the majority of the well-known crown firms that deliver news coverage to Canadians. Therefore, an image of Bell Media is appropriate as it conveys many of the journalism firms materially affected by Bill C-18.
+      </p>
+
+      <h2 class="text-center">Encountered Challenge</h2>
+      <p>
+        The only notable challenge I faced was captioning the video. For optimal accessibility, I decided to add closed captions (CC) to my video. This task is monotonous if done manually. I had to ensure the caption cues were in sync with the video's audio (i.e., my narration) so  they remained relevant and, thus, helpful to users. Fortunately, I used a video editor called <a class="light-link" href="https://www.veed.io/tools/auto-subtitle-generator-online/video-caption-generator">VEED.IO</a>, which sports a subtitle generator. The tool expedited the captioning process as I used the generated file as a starting point.
+      </p>
+      <p>
+        Despite the initial assistance, when incorporating my changes, I accidentally introduced inconspicuous syntax errors because of my unfamiliarity with <a class="light-link" href="https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API">Web Video Text Tracks (abbreviated as WebVTT)</a>, the file format for describing captions. Although the syntax is relatively straightforward, mistakes can be difficult to spot because HTML5's <code>&lt;track&gt;</code> element silently ignores an imperfect VTT imperfect file. For debugging assistance, I resorted to validation tools such as <a class="light-link" href="https://validator.subtitledpro.com/">Subtitled Pro's Subtitle Validator</a>, which uncovered the problems.
+      </p>
+    </article>
+    <section class="mb-3">
+      <h2 class="text-center my-4">Attestation</h2>
+      <p>
+        I declare that this is wholly my own work in accordance with
+        Seneca Academic Policy. No part of this work has been copied
+        manually or electronically from any other source (including web
+        sites) or distributed to other students.
+      </p>
+      <div class="d-flex">
+        <p class="w-100">
+          Name:&nbsp;Nicholas&nbsp;Defranco
+        </p>
+        <p class="w-100">
+          Student&nbsp;ID:&nbsp;106732183
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="p-3 border-top">
+    <p class="text-center">
+      This page was last modified on <span id="time">Please enable JavaScript</span>
+    </p>
+  </footer>
+</body>
+</html>

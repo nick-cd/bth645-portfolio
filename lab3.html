@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTH645 Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <!-- https://fontawesome.com/kits -->
+
+  <script src="https://kit.fontawesome.com/60b9748389.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <header class="container-nav">
+    <div class="py-0 navbar navbar-expand-md border-bottom">
+      <div class="d-flex align-content-around align-items-center">
+        <a
+          class="link-icon mx-3"
+          href="/"
+          title="Go to landing page"
+          aria-label="Link to landing page"
+        >
+          <span class="fa-solid fa-home fa-xl"></span>
+        </a>
+        <p class="mt-3 navbar-brand">Nicholas&nbsp;Defranco</p>
+      </div>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#drop-menu"
+        aria-controls="drop-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav
+        class="collapse navbar-collapse"
+        id="drop-menu"
+        aria-label="Primary navigation"
+      >
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View lab collection"
+                title="Expand lab collection"
+              >
+                Labs
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="index.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab2.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab3.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;3
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab4.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;4
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="lab5.html"
+                    role="menuitem"
+                  >
+                    Lab&nbsp;5
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+            </details>
+          </li>
+
+          <li class="nav-item mx-4 my-2">
+            <details class="nav-item dropdown" open>
+              <summary
+                class="navbar-light-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-haspopup="menu"
+                aria-label="View assignment collection"
+                title="Expand assignment collection"
+              >
+                Assignments
+              </summary>
+
+              <ul class="dropdown-menu" role="menu">
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a1.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;1
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a2.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;2
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item navbar-light-link bold text-center"
+                    href="a3.html"
+                    role="menuitem"
+                  >
+                    Assignment&nbsp;3
+                  </a>
+                </li>
+
+                <!-- dropdown-menu -->
+
+              </ul>
+
+            </details>
+          </li>
+
+          <!-- navbar-nav -->
+
+        </ul>
+      </nav>
+
+      <!-- .navbar -->
+
+    </div>
+
+    <!-- .container-nav -->
+
+  </header>
+
+  <main>
+    <h1 class="text-center">Lab 3</h1>
+    <figure class="my-3">
+      <figcaption class="text-center">
+        My custom recording:
+      </figcaption>
+      <audio
+        class="d-block ms-auto me-auto"
+        controls
+        src="audio/sample.mp3"
+      >
+        <a href="audio/sample.mp3">
+          Download the recording
+        </a>
+      </audio>
+    </figure>
+
+    <figure class="my-3">
+      <figcaption class="text-center">
+        <a class="light-link" href="https://catalog.ldc.upenn.edu/LDC2005T16">Topic detection and tracking</a> technology training set (TDT4) from LDC:
+      </figcaption>
+      <audio
+        class="d-block ms-auto me-auto"
+        controls
+      >
+        <source src="audio/ldc_eng.wav" />
+        <source src="audio/ldc_eng.ogg" />
+        <source src="audio/ldc_eng.mp3" />
+        <a href="audio/ldc_eng.mp3">
+          Download the recording
+        </a>
+      </audio>
+    </figure>
+
+    <figure class="my-3">
+      <figcaption class="text-center">
+        Manipulated TDT4 audio:
+      </figcaption>
+      <audio
+        class="d-block ms-auto me-auto"
+        controls
+      >
+        <source src="audio/edited_ldc_eng.wav" />
+        <source src="audio/edited_ldc_eng.ogg" />
+        <source src="audio/edited_ldc_eng.mp3" />
+        <a href="audio/edited_ldc_eng.mp3">
+          Download the recording
+        </a>
+      </audio>
+    </figure>
+
+    <article>
+      <h2>Reflection</h2>
+      <h3>1. The reason of choosing the file format when creating your audio</h3>
+      <p>
+        Here, I chose the MP3 file type. It's popular reputation made it the most portable, the driving factor for my decision.
+      </p>
+      <h3>2. The use of audio on your website regarding usability.</h3>
+
+      <h4>Playback controls</h4>
+      <p>
+        In every <code>&lt;audio&gt;</code> element, I specified the <code>controls</code> attribute to give the user the liberty to change playback as they wish. This design adheres to the <a href="https://www.w3.org/TR/WCAG21/#x1-4-2-audio-control#x1-4-2-audio-control">W3C's audio standard with respect to control availability</a> which suggests that recordings longer than three (3) seconds should have playback controls.
+      </p>
+
+      <h4>Contingency audio files types</h4>
+      <p>
+        Not every compression and decompression algorithms (codecs) are available on browsers. Striving for universal browser support, I provide multiple <code>&lt;source&gt;</code>s of the same recording within every <code>&lt;audio&gt;</code> tag.
+      </p>
+
+      <h3>3. Any thoughts on different audio file formats, e.g., cons, pros, when to use.</h3>
+
+      <h4>MP3</h4>
+      <table class="table table-bordered table-sm">
+        <caption>The advantages and disadvantages of the MP3 file type</caption>
+
+        <thead>
+          <th>Pros</th>
+          <th>Cons</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Portable</td>
+            <td>Subpar prescribed compression algorithm</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>WAV</h4>
+      <table class="table table-bordered table-sm">
+        <caption>The advantages and disadvantages of the WAV file type</caption>
+        <thead>
+          <th>Pros</th>
+          <th>Cons</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Retains all digital sound information</td>
+            <td>Large file sizes (as a catalyst of lack of compression)</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>Does not support metadata</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>OGG</h4>
+      <table class="table table-bordered table-sm">
+        <caption>The advantages and disadvantages of the OGG file type</caption>
+        <thead>
+          <th>Pros</th>
+          <th>Cons</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Open standard</td>
+            <td>Lack of support</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Properties of sound file types from <cite><a href="https://www.whathifi.com/advice/mp3-aac-wav-flac-all-the-audio-file-formats-explained">whathifi.com</a></cite>
+      </p>
+
+      <h3>4. Description of your editing on the file, e.g., cutting, assembly, fadein,
+        fadeout, etc.</h3>
+
+      <p>
+        The steps below describe the procedure to recreate the manipulated recording.
+      </p>
+
+      <ol>
+        <li>Select the time range from 10:54 to 11:54.</li>
+        <li>Cut (Ctrl + X) the selection.</li>
+        <li>Select the beginning of the recording.</li>
+        <li>Paste (Ctrl + V) the selection.</li>
+        <li>Select the time range from 0:00 (when the Tums commericial airs) to 0:30 (the transition between commericials).</li>
+        <li>Copy (Ctrl + C) the selection.</li>
+        <li>Repeact steps 3 and 4.</li>
+        <li>Select the time range from 0:03.7 to 0:04.4.</li>
+        <li>Copy (Ctrl + C) the seclection.</li>
+        <li>Paste (Ctrl + V) the selection at time 0:04.4.</li>
+      </ol>
+
+    </article>
+
+    <section class="mb-3">
+      <h2 class="text-center my-4">Attestation</h2>
+      <p>
+        I declare that this is wholly my own work in accordance with
+        Seneca Academic Policy. No part of this work has been copied
+        manually or electronically from any other source (including web
+        sites) or distributed to other students.
+      </p>
+      <div class="d-flex">
+        <p class="w-100">
+          Name:&nbsp;Nicholas&nbsp;Defranco
+        </p>
+        <p class="w-100">
+          Student&nbsp;ID:&nbsp;106732183
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="p-3 border-top">
+    <p class="text-center">
+      This page was last modified on <span id="time">Please enable JavaScript</span>
+    </p>
+  </footer>
+</body>
+</html>
